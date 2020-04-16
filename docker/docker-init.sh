@@ -39,7 +39,7 @@ superset fab create-admin \
               --username superset \
               --firstname Superset \
               --lastname Admin \
-              --email admin@superset.com \
+              --email superset@superset.com \
               --password business
 echo_step "1" "Complete" "Setting up admin user"
 
