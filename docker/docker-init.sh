@@ -34,12 +34,12 @@ EOF
 }
 
 # Create an admin user
-echo_step "1" "Starting" "Setting up admin user ( superset / business )"
+echo_step "1" "Starting" "Setting up admin user ( business / business )"
 superset fab create-admin \
-              --username superset \
-              --firstname Superset \
+              --username business \
+              --firstname Business \
               --lastname Admin \
-              --email superset@superset.com \
+              --email business@superset.com \
               --password business
 echo_step "1" "Complete" "Setting up admin user"
 
