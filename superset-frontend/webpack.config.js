@@ -39,7 +39,7 @@ const APP_DIR = path.resolve(__dirname, './');
 const BUILD_DIR = path.resolve(__dirname, '../superset/static/assets');
 
 const {
-  mode = 'development',
+  mode = 'production',
   devserverPort = 9000,
   measure = false,
   analyzeBundle = false,
