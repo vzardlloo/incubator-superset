@@ -329,7 +329,7 @@ IMG_UPLOAD_URL = "/static/uploads/"
 CACHE_DEFAULT_TIMEOUT = 60
 CACHE_CONFIG: CacheConfig = {
     'CACHE_TYPE': 'filesystem',
-    'CACHE_DIR': '/data'
+    'CACHE_DIR': '/tmp'
 }
 TABLE_NAMES_CACHE_CONFIG: CacheConfig = {"CACHE_TYPE": "null"}
 
