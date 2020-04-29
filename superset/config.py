@@ -197,7 +197,7 @@ FAB_API_SWAGGER_UI = True
 # [TimeZone List]
 # See: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # other tz can be overridden by providing a local_config
-DRUID_TZ = tz.gettz('Asia/Shanghai')
+DRUID_TZ = tz.tzlocal()
 DRUID_ANALYSIS_TYPES = ["cardinality"]
 
 # Legacy Druid NoSQL (native) connector
@@ -253,7 +253,7 @@ PUBLIC_ROLE_LIKE_GAMMA = False
 # Babel config for translations
 # ---------------------------------------------------
 # Setup default language
-BABEL_DEFAULT_LOCALE = "en"
+BABEL_DEFAULT_LOCALE = "zh"
 # Your application default translation path
 BABEL_DEFAULT_FOLDER = "superset/translations"
 # The allowed translation for you app
