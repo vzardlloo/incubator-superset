@@ -34,4 +34,5 @@ requests==2.22.0
 statsd==3.3.0
 tox==3.11.1
 pymysql==0.9.3
+mysqlclient==1.4.6
 
