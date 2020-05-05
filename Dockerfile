@@ -32,7 +32,7 @@ RUN mkdir /app \
 # First, we just wanna install requirements, which will allow us to utilize the cache
 # in order to only build if and only if requirements change
 COPY ./requirements.txt /app/
-RUN pip install -U pip
+#RUN pip install -U pip
 RUN pip config set global.index-url http://mirrors.aliyun.com/pypi/simple
 RUN pip config set install.trusted-host mirrors.aliyun.com
 RUN cd /app \
